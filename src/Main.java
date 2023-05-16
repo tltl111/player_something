@@ -3,18 +3,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        
-        String name = "";
 
-        Scanner reader = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Bread is ready.");
-        System.out.println("Who is the bread for?");
+        String a = input.next();
 
-        name = reader.next();
+        System.out.println("How would you describe it? Big? Azure? Tattered?");
 
-        System.out.println("Noted: " + name + " got bread.");
+        String b = input.next();
+        String c = "Doom";
+        String d = "3000";
 
-        reader.close();
+        System.out.println("The " + b + " " + a + " of " + c + " " + d + "!");
+
+        input.close();
     }
 }
