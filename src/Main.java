@@ -1,21 +1,23 @@
-import java.util.Scanner;
-
-
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        boolean boolVar = true;
+        byte byteVar = 127;
+        short shortVar = 32767;
+        int intVar = 21651651;
+        long longVar = 561313515153L;
+        float floatVar = 3.14f;
+        double doubleVar = 2.71828;
+        char charVar = 'A';
 
-        String a = input.next();
+        System.out.println(boolVar);
+        System.out.println(byteVar);
+        System.out.println(shortVar);
+        System.out.println(intVar);
+        System.out.println(longVar);
+        System.out.println(floatVar);
+        System.out.println(doubleVar);
+        System.out.println(charVar);
 
-        System.out.println("How would you describe it? Big? Azure? Tattered?");
-
-        String b = input.next();
-        String c = "Doom";
-        String d = "3000";
-
-        System.out.println("The " + b + " " + a + " of " + c + " " + d + "!");
-
-        input.close();
     }
 }
