@@ -1,0 +1,1 @@
+This is a series of coding challenges to learn Java.
