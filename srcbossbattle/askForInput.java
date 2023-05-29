@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class askForNumber {
+public class askForInput {
 
     private static Scanner input = new Scanner(System.in);
 
@@ -24,5 +24,17 @@ public class askForNumber {
         while(number < min || number > max);
         
         return number;
+    }
+
+    public static boolean askForNewGame() {
+        System.out.print("Would you like to play again? Yes/No: ");
+        String newGame = input.nextLine();
+        if (newGame.toLowerCase().equals("yes") || newGame.toLowerCase().equals("y")) {
+            boolean startNewGame = true;
+            return startNewGame;
+        } else {
+            boolean startNewGame = false;
+            return startNewGame;
+        }
     }
 }
