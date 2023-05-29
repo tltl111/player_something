@@ -7,8 +7,14 @@ public class askForNumber {
 
     public static int numberInput(String text) {
         System.out.println(text);
-        String userInput = input.nextLine();
-        return Integer.parseInt(userInput);
+        while (true) {
+            try {
+                String userInput = input.nextLine();
+                return Integer.parseInt(userInput);
+            } catch (NumberFormatException e) {
+                System.out.println("Please enter a number");
+            }
+        }
     }
 
     public static int askForNumberInRange(String text, int min, int max) {
