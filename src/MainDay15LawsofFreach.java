@@ -6,7 +6,7 @@ public class MainDay15LawsofFreach {
 
         for (int index : array) {
             if (index < currentSmallest) {
-            currentSmallest = index;
+                currentSmallest = index;
             }
         }
 
@@ -14,11 +14,11 @@ public class MainDay15LawsofFreach {
 
         int total = 0;
 
-        for (int index : array)
+        for (int index : array) {
             total += index;
             double average = (double)total / array.length;     
         
         System.out.println(average);
-
+        }
     }
 }

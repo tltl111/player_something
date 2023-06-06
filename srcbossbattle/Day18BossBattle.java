@@ -61,7 +61,7 @@ public class Day18BossBattle {
     }
     public void setManticoreDistanceRandom() {
         Random random = new Random();
-        manticoreDistance = random.nextInt(1) + 1;
+        manticoreDistance = random.nextInt(100) + 1;
     }
 
     public void fireAtManticore() {      

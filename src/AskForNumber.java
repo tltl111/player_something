@@ -1,7 +1,4 @@
-import java.util.Scanner;
-
-
-public class askForNumber {
+import java.util.Scanner; public class AskForNumber {
 
     private static Scanner input = new Scanner(System.in);
 
