@@ -38,4 +38,10 @@ public class askForInput {
             return startNewGame;
         }
     }
+
+    public static String askForString(String text) {
+        System.out.println(text);
+        String userInput = input.nextLine();
+        return userInput;
+    }
 }
