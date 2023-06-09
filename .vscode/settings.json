@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "srcmanticorehunting",
         "srcbossbattle",
         "src",
-        "srcmanticorehunting"
+        "Functions"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
