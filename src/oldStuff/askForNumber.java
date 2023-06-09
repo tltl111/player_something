@@ -3,7 +3,6 @@ package oldStuff;
 import java.util.Scanner;
 
 public class askForNumber {
-
     private static Scanner input = new Scanner(System.in);
 
     public static int numberInput(String text) {
