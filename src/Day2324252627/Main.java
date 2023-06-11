@@ -31,6 +31,12 @@ public class Main {
             }
         }
 
+        Door door1 = new Door(doorStateEnum.OPEN, 123456789);
+        door1.closeDoor();
+        door1.lockDoor();
+        door1.unlockDoor(123);
+        door1.unlockDoor(123456789);
+        door1.unlockDoor(123456789);
     }
 
 }
