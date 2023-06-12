@@ -37,6 +37,9 @@ public class Main {
         door1.unlockDoor(123);
         door1.unlockDoor(123456789);
         door1.unlockDoor(123456789);
+
+        passwordValidator password1 = new passwordValidator();
+        System.out.println(password1.isPasswordValid("F12fdsafdsa"));
     }
 
 }
